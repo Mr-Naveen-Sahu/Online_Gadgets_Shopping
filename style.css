@@ -1,0 +1,305 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+button{
+  cursor: pointer;
+}
+
+.head{
+    
+    width: 1400px;
+    margin: 0 auto;
+    background-color: rgba(7, 6, 6, 0.774);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+}
+
+.node{
+  border: 2px solid black;
+  padding: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+              0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+.sigh-up {
+   display: flex;
+  gap: 23px;
+}
+.sigh-up a{
+   text-decoration: none;
+   color: aqua;
+}
+
+.second-nav{
+   max-width: 1400px;
+   margin: 0 auto;
+   height: 50px;
+   background-color: whitesmoke;
+    box-shadow: 2px 2px ; 
+    
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.img{
+   height: 27px;
+   width: 50px;
+}
+.list{
+  display: flex;
+  
+}
+ul{
+  display: flex;
+  gap: 10px;
+  text-decoration: dashed;
+}
+.li {
+  list-style-type: none;
+  gap: 50px;
+  text-decoration: dotted;
+}
+.li a{
+  text-decoration: none;
+}
+
+/* ================Main======================= */
+.main{
+  width: 1400px;
+  margin: 0 auto;
+  background-color: rgb(119, 190, 244);
+  border-radius: 6px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.center{
+ 
+  width: 800px;
+  height: 400px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.left{
+   height: 90%;
+   width: 47%;
+   overflow: hidden;
+   gap: 48px;
+}
+
+.el-img{
+  display: flex;
+  justify-content:flex-end;
+
+}
+
+/* ====================end main======================= */
+
+
+
+/* ====================Gajed csss======================= */
+.laptop-container{
+  max-width: 900px;
+  margin: 0 auto;
+  height: 250px;
+  background-color:azure;
+}
+
+.rate{
+  margin-top: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 150px;
+  background-color:azure;
+  margin-top: 40px;
+}
+
+.gajed, .pg {
+  display: flex;
+   justify-content: center;
+    align-items: center;
+     padding:5px 5px;
+      background-color: azure; 
+                     
+}
+
+.rate-container{
+  display: flex;
+   justify-content: center;
+   justify-content: space-around;
+    align-items: center;
+     padding:5px 5px;
+      background-color: azure; 
+      width: 25%;
+}
+.full{
+  width: 1400px;
+ 
+    margin: 0 auto;
+    background-color: azure ;
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+   
+   justify-content: center;
+   align-items: center;
+}
+
+
+/* ==========================Fetch Css========================== */
+
+.Product{
+  max-width: 1400px;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+.max{
+  max-width: 900px;
+  margin: 0 auto;
+  /* background-color: whitesmoke; */
+  display: flex;
+   flex-wrap: wrap;
+  gap: 24px;
+}
+
+.Product-container{
+   height: 460px;
+   width: 26%;
+   border: 2px solid rgba(15, 4, 4, 0.287);
+   overflow: hidden;
+   margin-top: 30px;
+   padding: 6px 5px;
+   /* box-shadow: 2px 2px 2px 1px; */
+   box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.1), 
+              0 1px 3px rgba(0, 0, 0, 0.08);
+   background-color: white;
+   border-radius: 8px;
+}
+
+.Product-container:hover{
+  
+  transform: translateY(-15px);
+  ox-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+              0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.stock-elemnt{
+ 
+  display: flex;
+  width: 50%;
+  height: 20px; 
+  border: 0.2rem solid rgba(17, 14, 14, 0.558);
+  border-radius: 0.5rem; 
+  overflow: hidden;
+  justify-content: center;
+  justify-content: space-between;
+ 
+}
+
+.stock-elemnt button{
+  background-color: transparent;
+  color: rgb(9, 9, 9);
+  /* font-size: 2rem;
+  adding: 0.6rem rem;
+  font-weight: bold;
+  border: none; */
+  width: 50px;
+  font-weight: bold;
+  border: 3px black; 
+  padding-bottom: 4px;
+  font-size: 22px;
+  
+}
+
+button:hover{
+  background-color: black;
+  color: wheat;
+}
+
+.button:hover{
+  cursor: pointer;
+}
+
+.stock-elemnt button:hover{
+  cursor: pointer;
+}
+.product-quantity-element{
+  display: flex;
+  align-items: end;
+  text-align: center;
+  gap: 7px;
+}
+
+.product-container{
+  max-width: 900px;
+  margin: auto 0;
+  background-color: aqua;
+}
+
+/* Footer================== */
+.outer{
+  
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: rgba(7, 6, 6, 0.774);
+  border-radius: 6px;
+  }
+
+  .inner{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+     overflow: hidden;
+     padding: 50px;
+     gap: 20px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+              0 1px 3px rgba(0, 0, 0, 0.08);
+              margin-top: 30px;
+  }
+
+  .first{
+    width: 25%;
+    height: 200px;
+  }
+
+  .cont{
+
+    height: 200px;
+    display: flex;
+    justify-self: end;
+    justify-content:end;
+    max-width: 900px;
+    margin: 0 auto;
+  margin-bottom: 90px;
+  margin-top: 30px;
+ 
+}
+
+.box{
+    border: 2px solid black;
+    width: 220px;
+    height: 170px;
+    padding: 12px;
+    font-size: large;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+    0 1px 3px rgba(0, 0, 0, 0.08);
+
+}
+                    
